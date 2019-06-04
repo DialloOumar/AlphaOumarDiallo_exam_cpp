@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    coffeemachine.cpp \
+    expressomachine.cpp
+
+HEADERS += \
+    coffeemachine.h \
+    expressomachine.h
